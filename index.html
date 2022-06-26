@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-docc_hik</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="btn-up">&uarr;</div>
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a class="header-logo__link" href="/"><span>Web</span> docc_hik</a>
+                    <nav class="header-menu">
+                        <ul class="header-menu__list">
+                            <li class="header-menu__item">
+                                <a href="#about" class="header-menu__link">Обо мне</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#works" class="header-menu__link">Портфолио</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#order" class="header-menu__link">Оставить заявку</a>
+                            </li>
+                            <li class="header-menu__item">
+                                <a href="#contacts" class="header-menu__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- /.header -->
+        <section class="cover" id="home">
+            <div class="container">
+                <div class="cover-ava">
+                    <!-- <img class="cover-ava__img" src="./img/avatar-3.jpg" alt=""> -->
+                </div>
+                <h1>Привет, меня зовут Евгений</h1>
+                <p>я начинающий <span>frontend</span>-разработчик!</p>
+            </div>
+        </section>
+        <!-- /.cover -->
+        <section class="about" id="about">
+            <div class="container">
+                <h1 class="about__title">Я занимаюсь версткой сайтов 6 месяцев! Каждый день, я изучаю с большим интересом
+                    <br> <span>frontent</span>-разработку
+                </h1>
+                <span class="about-skills">Мои навыки</span>
+                <ul class="about-skills__list">
+                    <li class="about-skills__item">
+                        <span class="about-skills__num">80%</span>
+                        <p class="about-skills__text">Html</p>
+                    </li>
+                    <li class="about-skills__item">
+                        <span class="about-skills__num">60%</span>
+                        <p class="about-skills__text">css</p>
+                    </li>
+                    <li class="about-skills__item">
+                        <span class="about-skills__num">30%</span>
+                        <p class="about-skills__text">Javacript</p>
+                    </li>
+                    <li class="about-skills__item">
+                        <span class="about-skills__num">2%</span>
+                        <p class="about-skills__text">React</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="works" id="works">
+            <div class="container">
+                <h1 class="works__title">Портфолио</h1>
+
+                <div class="works-inner">
+                    <div class="works__item">
+                        <img src="./img/works/work-1.jpg" alt="" class="works__cover">
+                        <div class="works__item-body">
+                            <a class="works__item-body-btn" href="https://docchik.github.io/Interno/" target="_blank">Посмотреть на GitHub</a>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <img src="./img/works/work-2.jpg" alt="" class="works__cover">
+                        <div class="works__item-body">
+                            <a class="works__item-body-btn" href="https://docchik.github.io/Tesla/" target="_blank">Посмотреть на GitHub</a>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <img src="./img/works/work-3.jpg" alt="" class="works__cover">
+                        <div class="works__item-body">
+                            <a class="works__item-body-btn" href="https://docchik.github.io/Productly/" target="_blank">Посмотреть на GitHub</a>
+                        </div>
+                    </div>
+                    <div class="works__item">
+                        <img src="./img/works/work-4.jpg" alt="" class="works__cover">
+                        <div class="works__item-body">
+                            <a class="works__item-body-btn" href="https://docchik.github.io/Aperture/" target="_blank">Посмотреть на GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="order" id="order">
+            <div class="container">
+                <h1 class="order__title">Оставить заявку</h1>
+                <form class="order__form">
+                    <div class="order__form-inner">
+                        <div class="order-inputs">
+                            <input class="order__input" type="text" placeholder="Имя">
+                            <input class="order__input" type="text" placeholder="Фамилия">
+                            <input class="order__input" type="phone" placeholder="Ваш номер телефона">
+                            <input class="order__input" type="email" placeholder="Ваша эл.почта">
+                        </div>
+                        <textarea class="order__message" name="message" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                    </div>
+                    <button class="order__form-btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+        <footer class="footer" id="contacts">
+            <div class="container">
+                <div class="footer-inner">
+                    <a class="footer-logo__link" href="#"><span>Web</span> docc_hik</a>
+                    <div class="footer-contacts">
+                        <ul class="footer-contacts__list">
+                            <li class="footer-contacts__item">
+                                <a href="tel:+79373775779" class="footer-contacts__link">Phone</a>
+                            </li>
+                            <li class="footer-contacts__item">
+                                <a href="email:evgeniy161102@gmail.com" class="footer-contacts__link">Email</a>
+                            </li>
+                            <li class="footer-contacts__item">
+                                <a href="email:evgeniy161102@gmail.com" class="footer-contacts__link">Instagram</a>
+                            </li>
+                            <li class="footer-contacts__item">
+                                <a href="email:evgeniy161102@gmail.com" class="footer-contacts__link">Telegram</a>
+                            </li>
+                            <li class="footer-contacts__item">
+                                <a href="email:evgeniy161102@gmail.com" class="footer-contacts__link">WhatsApp</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
